@@ -1,0 +1,311 @@
+---
+title: "Trainingspläne {{< fa person-swimming >}}"
+subtitle: "für die Schwimmfreunde Unna"
+author: Hendrik Friederichs
+title-block-banner: Logo_SFU_HF_blue_edge2.jpeg
+format: 
+  html:
+    toc: true
+    toc-title: Trainings
+theme: cerulean
+editor: visual
+lang: de
+---
+
+<!--# nach Änderungen einfach quarto publish gh-pages im Terminal ausführen -->
+
+Die folgenden Trainingspläne habe ich für die Talentis der Schwimmfreunde Unna geschrieben. In einem Training von ca. 1 Stunde waren diese für die Kinder gut zu bewältigen.
+
+Die Trainingspläne dürfen gerne von allen und jedem benutzt werden!
+
+Grundsätzlich gilt:
+
+-   erst schön, dann schnell 🏊🏻‍♂️💨
+
+-   die Kinder sollten zügig Brust- und Kraulschwimmen mit der Beherrschung der Wettkampfregeln lernen
+
+-   Rückenschwimmen kann von vielen Kindern bis zum 10., Schmetterlingsschwimmen bis zum 12. Lebensjahr erlernt werden
+
+-   nur ein *nasser* Trainer ist ein guter Trainer 🤣
+
+-   das Wichtigste ist und bleibt der Spaß am und im Wasser 😀💦
+
+## Trainingspläne für 8 bis 12-jährige
+
+### Training 05.12.2023
+
+**Aqua-Fitness:** 10 Minuten (Synchronschwimmen mit Schwimmnudel {{< fa dumbbell >}})
+
+**Einschwimmen:**
+
+-   300 m jeweils 3 x 100 m Lagen
+-   5 x 50 m Arme-/Beine-Übungen nach Ansage
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   5 x 50 m Kraul-Pyramide: **2**er-**3**er-**4**er-**3**er-**2**er-Zug
+
+**Technik:** {{< fa fish >}}
+
+-   10 x 25 m Schmetterling-Übungen
+
+**Spiel:** Turmspringen
+
+**Gesamtstrecke: 1.050 m**
+
+### Training 1
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen, Dehnen und Kraftübungen {{< fa dumbbell >}})
+
+**Einschwimmen:** {{< fa arrow-down-wide-short >}}
+
+-   200 m Brust
+-   100 m Kraul
+-   50 m Rücken
+-   25 m Delfin + 25 m altdeutsch Rücken
+
+**Technik:** {{< fa fish >}}
+
+-   8 x 25 m nach Ansage
+
+50 m altdeutsch Rücken
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   200 m Kraul
+-   100 m Brust
+-   50 m Delfin
+-   25 m Rücken + 25 m altdeutsch Rücken
+
+**Staffel-Wettkampf:** {{< fa stopwatch-20 >}}
+
+-   4 x 25 m Kraul
+-   4 x 25 m Kraul
+-   4 x 25 m Lagen
+
+(hier geht es für die Kinder darum, die Abläufe einer Staffel kennenzulernen und die Wechsel zu üben)
+
+**Gesamtstrecke: 1.300 m**
+
+### Training 2
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen, Dehnen und Kraftübungen {{< fa dumbbell >}})
+
+**Einschwimmen:** {{< fa arrow-down-wide-short >}}
+
+-   400 m Kraul
+
+**Ausdauer: 300 m** {{< fa heart-pulse >}}
+
+-   100 m Brust: 1 Bahn nur linker Arm, 1 Bahn nur rechter Arm
+-   100 m Brust: 1 Bahn 2 x Armzug 1 x Beinschlag, 1 Bahn 2 x Beinschlag 1 x Armzug
+-   100 m Brust: 1 Bahn nur Arme, 1 Bahn nur Beine
+
+50 m altdeutsch Rücken
+
+**Technik:** {{< fa fish >}}
+
+-   4 x 50 m Rücken mit Rollwende (!), evtl. Kicken
+
+50 m altdeutsch Rücken
+
+**Schnelligkeit: 100 m** {{< fa gauge >}}
+
+-   4 x 25 m Delfin
+
+**Wasserball** -- Spiel auf 2 Bahnen
+
+**Gesamtstrecke: 1.100 m**
+
+### Training 3
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen, Dehnen und Kraftübungen {{< fa dumbbell >}})
+
+**Einschwimmen:** 3 x 150 m (1. Kraul, 2. Brust, 3. Rücken \[KBR\])
+
+-   100 m locker
+-   50 m Sprint
+
+**Beine:** 3 x 75 m (KBR)
+
+-   50 m locker
+-   25 m Sprint
+
+**Arme:** 3 x 75 m (KBR)
+
+-   50 m locker
+-   25 m Sprint
+
+**Technik:** X x 50 m nach Ansage (je nach Zeit)
+
+-   3 x 50 m Rücken (2 x Übungen, 1 x Sprint)
+-   3 x 50 m Brust (2 x Übungen, 1 x Sprint)
+-   3 x 50 m Kraul (2 x Übungen, 1 x Sprint)
+
+**Ausschwimmen:**
+
+{{< fa water-ladder size=3x >}} {{< fa shower size=3x >}}
+
+### Training 4
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen, Dehnen und Kraftübungen {{< fa dumbbell >}})
+
+**Einschwimmen:**
+
+-   300 m abwechselnd Kraul und Rücken
+
+**Technik:** {{< fa fish >}}
+
+-   4 x 50 m Brust mit Fokus auf Beinschlag
+-   4 x 50 m Kraul mit Einarmtechnik
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   150 m Kraul, schnelles Tempo
+-   150 m Brust, gleichmäßiges Tempo
+
+**Spiel:** Turmspringen
+
+**Gesamtstrecke: 1.000 m**
+
+### Training 5
+
+**Aqua-Fitness:** 10 Minuten (Koordination und Gleichgewichtsübungen)
+
+**Einschwimmen:**
+
+-   300 m Wechsel zwischen 3 Bahnen Brust und 1 Bahn Delfin
+
+**Technik:** {{< fa fish >}}
+
+-   6 x 50 m, Schwerpunkt auf Armzug
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   300 m Kraul mit konstantem Tempo und Rollwenden
+
+**Spiel:** Tauchspiele
+
+**Gesamtstrecke: 900 m**
+
+### Training 6
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen und Dehnen)
+
+**Einschwimmen:**
+
+-   250 m Freistil
+
+**Technik:** {{< fa fish >}}
+
+-   10 x 25 m Kraul, Rücken & Delfin, Schwerpunkt auf Unterwasserphase
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   250 m Kraul mit Tempoänderungen
+
+**Schnelligkeit:** {{< fa gauge >}}
+
+-   5 x 50 m Lagen
+
+**Gesamtstrecke: 1.000 m**
+
+### Training 7
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen und leichte Kraftübungen {{< fa dumbbell >}})
+
+**Einschwimmen:**
+
+-   300 m abwechselnd Kraul und Rücken
+
+**Technik:** {{< fa fish >}}
+
+-   6 x 25 m Brust, Fokus auf Gleitphase (auch beim Tauchen)
+-   6 x 25 m Kraul, Fokus auf Gleitphase
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   4 x 75 m abwechselnd 1 Bahn Kraul, Rücken und Delfin
+
+**Schnelligkeit:** {{< fa gauge >}}
+
+-   6 x 50 m Kraul, alle 1:30 min Start
+
+**Spiel:** Planschen im kleinen Becken
+
+**Gesamtstrecke: 1.200 m**
+
+### Training 8
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen und Eintauch-Übungen)
+
+**Einschwimmen:**
+
+-   250 m Kraul
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   2 x 125 m Rücken mit Rollwende
+
+**Technik:** {{< fa fish >}}
+
+-   5 x 50 m nach Ansage
+
+**Schnelligkeit:** {{< fa gauge >}}
+
+-   10 x 25 m Kraul mit Startsprung oder Abstoßen unter(!) Wasser
+
+**Spiel:** Wasserball auf ein Tor
+
+**Gesamtstrecke: 1.000 m**
+
+### Training 9
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen und Dehnen)
+
+**Einschwimmen:**
+
+-   250 m Brust
+
+**Technik:** {{< fa fish >}}
+
+-   5 x 50 m Kraul, Fokus auf die Atmung: 2-er, 3-er, 4-er-Zug als Pyramide
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   250 m Rücken mit gleichmäßigem Tempo
+
+**Mini-Wettkampf:** {{< fa stopwatch-20 >}}
+
+-   jeweils 50 m Delfin, Rücken, Brust & Kraul
+-   100 m Lagen
+
+**Gesamtstrecke: 1.050 m**
+
+### Training 10
+
+**Aqua-Fitness:** 10 Minuten (Aufwärmen und Koordinationsübungen)
+
+**Einschwimmen:**
+
+-   300 m Wechsel zwischen allen Stilen
+
+**Technik:** {{< fa fish >}}
+
+-   4 x 25 m Delfin, Fokus auf Beinarbeit
+
+50 m altdeutsch Rücken
+
+**Ausdauer:** {{< fa heart-pulse >}}
+
+-   4 x 100 m Kraul, jede 100 m etwas schneller
+
+50 m altdeutsch Rücken
+
+**Spiel:** Turmspringen
+
+**Gesamtstrecke: 900 m**
+
+## Trainingspläne für 12 bis 15-jährige
+
+... ab Januar 2024 ...
