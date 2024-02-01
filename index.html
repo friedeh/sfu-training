@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.444">
+<meta name="generator" content="quarto-1.5.3">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -89,6 +89,7 @@ background-size: cover;
   <li><a href="#challenges-2024" id="toc-challenges-2024" class="nav-link" data-scroll-target="#challenges-2024">Challenges 2024</a>
   <ul class="collapse">
   <li><a href="#aktuelle-challenge" id="toc-aktuelle-challenge" class="nav-link" data-scroll-target="#aktuelle-challenge">Aktuelle Challenge</a></li>
+  <li><a href="#vergangene-challenges" id="toc-vergangene-challenges" class="nav-link" data-scroll-target="#vergangene-challenges">Vergangene Challenges</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -232,9 +233,23 @@ background-size: cover;
 <h3 class="anchored" data-anchor-id="aktuelle-challenge">Aktuelle Challenge</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="figures/Challenge_Januar_2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"><img src="figures/Challenge_Januar_2024.png" class="img-fluid figure-img" alt="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"></a></p>
+<p><a href="figures/QR-Code_Challenge_Februar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉"><img src="figures/QR-Code_Challenge_Februar.png" class="img-fluid figure-img" alt="Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉"></a></p>
+<figcaption>Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉</figcaption>
+</figure>
+</div>
+</section>
+<section id="vergangene-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="vergangene-challenges">Vergangene Challenges</h3>
+<p>(zur Wiederholung 😎)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figures/Challenge_Januar_2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"><img src="figures/Challenge_Januar_2024.png" class="img-fluid figure-img" alt="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"></a></p>
 <figcaption>Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung</figcaption>
 </figure>
+</div>
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉</span>
+<span class="glightbox-desc lightbox-desc-2">Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung</span>
 </div>
 </section>
 </section>
@@ -370,38 +385,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -410,8 +415,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -633,7 +645,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
