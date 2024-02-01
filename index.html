@@ -231,19 +231,26 @@ background-size: cover;
 </ul>
 <section id="aktuelle-challenge" class="level3">
 <h3 class="anchored" data-anchor-id="aktuelle-challenge">Aktuelle Challenge</h3>
-<p><img src="figures/QR-Code_Challenge_Februar.png" class="img-fluid" alt="Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉"> Hier noch der <a href="https://www.taskcards.de/#/board/4dc48abc-b870-4ff1-bb3a-ed14c876d5ee/view?token=58d792c2-e7a4-42af-b7e5-d479a79d29b2">Link</a> (falls ihr den QR-Code nicht scannen könnt).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figures/QR-Code_Challenge_Februar.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉"><img src="figures/QR-Code_Challenge_Februar.png" class="img-fluid figure-img" alt="Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉"></a></p>
+<figcaption>Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉</figcaption>
+</figure>
+</div>
+<p>Hier noch der <a href="https://www.taskcards.de/#/board/4dc48abc-b870-4ff1-bb3a-ed14c876d5ee/view?token=58d792c2-e7a4-42af-b7e5-d479a79d29b2">Link</a> (falls ihr den QR-Code nicht scannen könnt).</p>
 </section>
 <section id="vergangene-challenges" class="level3">
 <h3 class="anchored" data-anchor-id="vergangene-challenges">Vergangene Challenges</h3>
 <p>(zur Wiederholung 😎)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="figures/Challenge_Januar_2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"><img src="figures/Challenge_Januar_2024.png" class="img-fluid figure-img" alt="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"></a></p>
+<p><a href="figures/Challenge_Januar_2024.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"><img src="figures/Challenge_Januar_2024.png" class="img-fluid figure-img" alt="Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung"></a></p>
 <figcaption>Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung</figcaption>
 </figure>
 </div>
 <div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung</span>
+<span class="glightbox-desc lightbox-desc-1">Challenge Februar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung; Passwort auf Nachfrage 😉</span>
+<span class="glightbox-desc lightbox-desc-2">Challenge Januar 2024: je nach Browser draufklicken/-tippen zur vollständigen Darstellung</span>
 </div>
 </section>
 </section>
@@ -639,7 +646,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
